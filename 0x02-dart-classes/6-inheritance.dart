@@ -31,5 +31,5 @@ class User extends Password{
 
   @override
   String toString() =>
-    "User(id : ${this.id} ,name: ${this.name}, age: ${this.age}, height: ${this.height})";
+    "User(id : ${this.id} ,name: ${this.name}, age: ${this.age}, height: ${this.height}, Password valid: ${isValid()})";
 }
